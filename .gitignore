@@ -1,0 +1,45 @@
+# 忽略操作系统产生的文件
+.DS_Store
+Thumbs.db
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+*.temp
+
+# Node.js 项目常用忽略规则
+node_modules/
+dist/
+.env
+*.env.local
+
+# Python 项目常用忽略规则
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Java 项目常用忽略规则
+target/
+*.class
+
+# Go 项目常用忽略规则
+bin/
+*.exe
+*.out
+*.test
+
+# Vue.js/前端项目特有的配置
+.idea/
+.vscode/
+*.cache
+*.local
+yarn-error.log
+
+# 忽略文件夹
+24湖南省赛/
+Firefox-知攻善防实验室v2版本/
+tools/
+三叶草/
